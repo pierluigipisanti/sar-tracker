@@ -1,0 +1,47 @@
+@import 'leaflet/dist/leaflet.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --sidebar-width: 340px;
+  --header-height: 56px;
+  --bg-primary: #1a1d23;
+  --bg-secondary: #22262e;
+  --bg-hover: #2a2f38;
+  --text-primary: #e8eaed;
+  --text-secondary: #9aa0a6;
+  --accent: #4fc3f7;
+  --accent-hover: #29b6f6;
+  --border: #333840;
+  --danger: #ef5350;
+  --success: #66bb6a;
+  --warning: #ffa726;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
