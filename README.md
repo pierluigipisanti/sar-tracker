@@ -1,4 +1,4 @@
-# SAR Track Viewer
+# SAR Track Viewer — Tracce GPX per Ricerca e Soccorso (SAR) e Protezione Civile
 
 Visualizzatore di tracce **GPX** per operazioni di ricerca e soccorso (SAR) e Protezione Civile. Importi i GPX delle squadre e vedi su mappa **dove hanno cercato**, **quanto**, e soprattutto **dove non è ancora passato nessuno**.
 
